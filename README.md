@@ -17,5 +17,5 @@ AuthPass=password ' \
 -e subject='email subject' \
 -e from='Me <from@gmail.com>' \
 -e body='this is a test' \
-sfriedel/ \
+sfriedel/ssmtp \
 ./start.sh 
