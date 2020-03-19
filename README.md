@@ -1,7 +1,7 @@
 # docker-ssmtp
 ssmtp in an Alpine Docker container
 
-Intention for this container is to run in a modern CI pipeline (Concourse, Drone.io, etc), so all config is done via environment variables.
+Intention for this container is to run as an email notifier in a modern CI pipeline (Concourse, Drone.io, etc), so all config is done via environment variables.
 
 Here's an example: (All env variables must be present for container to work)
 
